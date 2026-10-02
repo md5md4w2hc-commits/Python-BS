@@ -1,3 +1,5 @@
 print("Enter your name : ")
-name = str(input())
-print("Hello", name, "how are you ?")
+n = str(input())
+print("which place are you in ? ")
+p = str(input())
+print("hello ", n , " of ", p)
