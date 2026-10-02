@@ -1,1 +1,7 @@
-print("Namastey INDIA")
+print("*")
+print("**")
+print("***")
+print("****")
+print("*****")
+print("******")
+
