@@ -1,2 +1,3 @@
-val = int(input("enter a number"))
-print(val)
+print("Enter your name : ")
+name = str(input())
+print("Hello", name, "how are you ?")
