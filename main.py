@@ -4,7 +4,8 @@ a=4
 print(a*n)
 b1=True
 print(type(b1))
-print(int("2"))
+print(float("2"))
 x="10"
 y=int(x)
 print(y, type(y))
+print(bool(""))
