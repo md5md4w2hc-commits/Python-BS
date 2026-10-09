@@ -1,2 +1,2 @@
-s = 'pranjal'
-print(s[1:5])
+s = "coffee"
+print(s[2:100])
