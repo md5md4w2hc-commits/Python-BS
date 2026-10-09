@@ -1,2 +1,2 @@
-print(13//4)
-print(-13//4)
+s = 'pranjal'
+print(s[1:5])
