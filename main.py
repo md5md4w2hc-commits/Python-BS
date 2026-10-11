@@ -1,4 +1,3 @@
-print(type(2))
-print(type("2"))
-print("555"[-2])
-print(type(1 + 4 / 2))
+x = 'Pranjal'
+y = 'Srivastava'
+print(x[0:2] + y[(len(y)-2):(len(y))])
