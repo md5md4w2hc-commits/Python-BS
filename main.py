@@ -1,2 +1,4 @@
-s = "coffee"
-print(s[2:100])
+s = 'coffee'
+print(s*5)
+print(s[3]*5)
+print(s[1:6:3])
