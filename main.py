@@ -1,4 +1,5 @@
-s = 'coffee'
-print(s*5)
-print(s[3]*5)
-print(s[1:6:3]*5)
+x = 'coffee'
+print(x == 'coffee')
+print(x == 'Coffee')
+print('apple' > 'kiwi')
+print('four' < 'one')
