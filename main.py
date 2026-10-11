@@ -1,3 +1,6 @@
-x = 'Pranjal'
-y = 'Srivastava'
-print(x[0:2] + y[(len(y)-2):(len(y))])
+x = 'pranjal'
+y = 'pranjal'
+z = 'pranjal'
+print(x==y==z)
+print(x[1::2])
+print(x[-1])
