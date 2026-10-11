@@ -1,6 +1,4 @@
-word = 'pranjal'
-new = word[0] + word[-1]
-print(new)
-print(2 ** 3 ** 0)
-x = input()
-print(type(x))
+print(type(2))
+print(type("2"))
+print("555"[-2])
+print(type(1 + 4 / 2))
