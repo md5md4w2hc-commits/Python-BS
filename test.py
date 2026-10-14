@@ -3,3 +3,5 @@ print(path)
 print("It\'s fine")
 quote = '''She said, "it's okay"'''
 print(quote)
+x = 'p--hon'
+print(x.strip('-')) 
