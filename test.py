@@ -1,7 +1,2 @@
-path = 'C:\\Users\\Data'
-print(path)
-print("It\'s fine")
-quote = '''She said, "it's okay"'''
-print(quote)
-x = 'p--hon'
-print(x.strip('-')) 
+x = "Pranjal is a loser and will always be a big loser"
+print(x.replace('loser','winner'))
