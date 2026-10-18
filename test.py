@@ -1,5 +1,5 @@
-x = 6
-if(x < 7):
-    print(x)
+age = 15
+if age >= 13 and age <= 19:
+    print("Teenager")
 else:
-    print('%')
+    print("Not a teenager")
