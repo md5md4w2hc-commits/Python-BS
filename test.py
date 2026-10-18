@@ -1,6 +1,7 @@
-import math
 import random
-print(type(math.sqrt(16)))
-print(type(math.factorial(5)))
-print(math.pow(10,2))
-print(random.random())
+t = int(((random.random())*100)%2)+1
+if(t == 1):
+    print("HEADS")
+else:
+    print("TAILS")
+print(random.choice(["HEADS", "TAILS"]))
