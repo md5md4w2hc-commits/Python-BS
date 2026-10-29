@@ -1,6 +1,6 @@
-count = 0
-while count < 3:
-    print("attempt", count)
-    count = count + 1
-    if count == 2:
-        count = 0
+x = int(input())
+r = 1
+while x > 1:
+    r = x*(x - 1)*r
+    x = x - 2
+print(r)
