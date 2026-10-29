@@ -1,7 +1,7 @@
-n = int(input())
+n = 3
+r = 1
 i = 1
-answer = 1
-while(i<=n):
-    answer = answer*i
-    i = i+1
-print(answer)
+while i < n:
+    r = r*i
+    i += 1
+print(r)
