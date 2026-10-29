@@ -1,6 +1,7 @@
-x = int(input())
-r = 1
-while x > 1:
-    r = x*(x - 1)*r
-    x = x - 2
-print(r)
+n = int(input())
+i = 1
+answer = 1
+while(i<=n):
+    answer = answer*i
+    i = i+1
+print(answer)
