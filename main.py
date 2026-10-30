@@ -3,8 +3,8 @@ import matplotlib.pyplot as plt
 from matplotlib.animation import FuncAnimation
 
 # --- 1. Simulation Configuration ---
-POINTS_PER_FRAME = 50   # Increase to 50 or 100 for faster convergence
-TOTAL_FRAMES = 200      # Total animation frames (25 * 200 = 5,000 darts)
+POINTS_PER_FRAME = 100   # Increase to 50 or 100 for faster convergence
+TOTAL_FRAMES = 2000     # Total animation frames (25 * 200 = 5,000 darts)
 
 # --- 2. Set Up the Dual-Panel Figure ---
 plt.style.use('dark_background')
