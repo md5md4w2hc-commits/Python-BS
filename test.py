@@ -1,3 +1,3 @@
-reverse = 4321
-negated = reverse - 2 * reverse
-print(negated)
+i = 0
+for i in range(1000):
+    print(i,"Pranjal")
