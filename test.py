@@ -1,15 +1,3 @@
-x = int(input("Enter a number"))
-if x < 0:
-    y = str(abs(x))
-    s = '-' + y[::-1]
-    if s == str(x):
-        print("Palindrome")
-    else:
-        print("Not a Palindrome")
-else:
-    y = str(x)
-    s = y[::-1]
-    if s == y:
-        print("Palindrome")
-    else:
-        print("Not a Palindrome")
+reverse = 4321
+negated = reverse - 2 * reverse
+print(negated)
