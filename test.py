@@ -9,8 +9,7 @@ if x < 0:
 else:
     y = str(x)
     s = y[::-1]
-    if s == str(x):
+    if s == y:
         print("Palindrome")
     else:
         print("Not a Palindrome")
-
