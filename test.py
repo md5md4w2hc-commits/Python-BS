@@ -1,7 +1,9 @@
-n = 5.0
-r = 1
-i = 1
-while i <= n:
-    r = r * i
+x = input("Enter a number")
+i = 0
+n = len(x)
+while i < n:
     i += 1
-print(r)
+if int(x) < 0:
+    print(i - 1)
+else:
+    print(i)
