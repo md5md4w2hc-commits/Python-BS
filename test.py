@@ -1,2 +1,3 @@
+x = int(input("Enter the number you want table of : "))
 for i in range(1,11):
-    print("2 X "+ str(i) + " = " + str(2*i))
+    print(str(x)+" X "+ str(i) + " = " + str(x*i))
