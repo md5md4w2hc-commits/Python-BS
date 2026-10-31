@@ -1,2 +1,2 @@
-for i in range(11):
-    print("2 * "+ str(i) + " =" + str(2*i))
+for i in range(1,11):
+    print("2 X "+ str(i) + " = " + str(2*i))
