@@ -1,4 +1,2 @@
-ans = 0
-for i in range(6):
-    ans = ans + i
-print(ans)
+for i in range(11):
+    print("2 * "+ str(i) + " =" + str(2*i))
