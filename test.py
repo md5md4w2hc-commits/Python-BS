@@ -1,7 +1,8 @@
 email = input()
-str = ''
+name = ''
+mail = ''
 for c in email:
     if c == '@':
-        break
-    str += c
-print(str)
+        print('')
+        continue
+    print(c, end = '')
