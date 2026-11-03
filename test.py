@@ -1,8 +1,5 @@
-email = input()
-name = ''
-mail = ''
-for c in email:
-    if c == '@':
-        print('')
-        continue
-    print(c, end = '')
+for x in range(11):
+    if x % 3 == 0:
+        print(x)
+    else:
+        pass
