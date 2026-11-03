@@ -1,4 +1,9 @@
-pi = 22/7
-print(f'Value of PI = {pi}')
-print('Value of PI = {0}'.format(pi))
-print('Value of PI = %f' % (pi))
+n = int(input())
+if n > 1:
+    for i in range(1, n):
+        n = n * i
+    print(n)
+elif n == 0:
+    print("1")
+else:
+    print("Invalid Input")
