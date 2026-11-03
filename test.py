@@ -1,9 +1,5 @@
-n = int(input())
-if n > 1:
-    for i in range(1, n):
-        n = n * i
-    print(n)
-elif n == 0:
-    print("1")
-else:
-    print("Invalid Input")
+num = str(abs(int(input())))
+digits = 0
+for c in num:
+    digits += 1
+print(digits)
