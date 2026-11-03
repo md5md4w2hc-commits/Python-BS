@@ -1,5 +1,4 @@
-num = int(input())
-for i in range(1, 11):
-    #print(f'{num} X {i} = {num * i}')
-    #print('{0} X {1} = {2}'.format(num, i, num * i))
-    print("%d X %d = %d" % (num, i, num * i))
+pi = 22/7
+print(f'Value of PI = {pi}')
+print('Value of PI = {0}'.format(pi))
+print('Value of PI = %f' % (pi))
