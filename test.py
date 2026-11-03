@@ -1,8 +1,4 @@
-s = input("Print the sequence: ")
-t = s
-count = 0
-for i in range(len(s)):
-    for j in range(len(s)):
-        print(i, j, s[i], s[j])
-        count += 1
-print(count)
+for i in range(4):
+    for j in range(4):
+        if i + j == 4:
+            print(i, j)
