@@ -1,17 +1,14 @@
-l = list(range(10))
-print(l)
-l.append("India")
-l.append(2.72)
-print(l)
-print(5 in l)
-print(-1 in l)
-print("India" in l)
-print(2.720 in l)
-print(l[0])
-print(l[1])
-print(l[len(l) - 1])
-print(1 in l)
-print("India" in l)
-y = {1,2,3,4,5,6,7,8,9,1}
-print(type(y))
-print(y)
+import random
+import math
+import numpy
+import sys
+l = []
+l1 = [0]
+l2 = [0,1]
+print(sys.getsizeof(l))
+print(sys.getsizeof(l1))
+print(sys.getsizeof(l2))
+x = list(range(100))
+s = set(range(100))
+print(sys.getsizeof(x))
+print(sys.getsizeof(s))
