@@ -1,5 +1,10 @@
-A = {1, 2}
-B = {1, 2, 3, 4}
-print(A.issubset(B))
-print(B.issuperset(A))
-print(A.issuperset(B))
+def discount(cost, d):
+    ans = cost - (cost * (d/100))
+    return ans
+
+print("Enter the cost price")
+c = int(input())
+print("Enter the discount")
+disc = int(input())
+
+print("The final discount is: ", discount(c, disc))
